@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ html body{
+   overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+   font-family: "Montserrat", sans-serif;
+   font-family: "Space Grotesk", sans-serif;
+ }
+ nav {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navleft img{
+height: 4vh;
+margin: 0 3vw;
+cursor: pointer;
+}
+ .navright{
+    display: flex;
+    margin: 0 10vw;
+    
+ }
+ .navright h1 {
+   font-size: 2vh;
+   color: black;
+   margin: 0 1vw;
+   padding: 1vh 1vw;
+   cursor: pointer;
+ }
+ .main-img{
+   position: relative;
+
+ }
+ .main-img img {
+   width: 100vw;
+   height: 100%;
+   
+ }
+
+ .img-text{
+   /* background-color: red; */
+   width: 40vw;
+   height: 40vh;
+   position: absolute;
+   top: 25%;
+   left: 3%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding-top: 5.5vh;
+ }
+   
+
+#page1-text1{
+   font-weight: 450;
+   margin-bottom: 2vh;
+ }
+ #page1-text2{
+   font-size: 3.3vw;
+   margin-bottom: 2.5vh;
+   
+ }
+ .page1-text-btn{
+   display: flex;
+   justify-content: space-between ;
+ }
+  .page1-text-btn button{
+   background: #EBEF29;
+   border: none;
+   margin: 1vw 2vw;
+   padding: 2vh 3.5vw;
+   font-size: 2.5vh;
+   font-weight: 600;
+   box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.616);
+  }
+  #page2 {
+   height: 70vh;
+   width: 100vw;
+   /* border: 1px solid black; */
+   position: relative;
+   display: flex;
+
+  }
+  .boxes{
+   /* position: absolute; */
+   width: 25vw;
+   height: 100%;
+   border-bottom: 1px solid black;
+   border-right: 1px solid black;
+   border-top: 1px solid black;
+   cursor: pointer;
+   background-size: cover;
+  background-position: center;
+  }
+  
+  #page3 img{
+    width: 100vw;
+    cursor: pointer;
+    display: block;
+  }
+ 
+#page4 img{
+  cursor: pointer;
+  width: 100vw;
+  display: block;
+  
+}
+#page5 {
+  /* background-color: #EBE7F7; */
+  /* background-color: red; */
+  width: 100vw;
+  height: 160vh;
+  position: relative;
+}
+.page5-text{
+  display: flex;
+  align-items: center;
+  /* background-color: aquamarine; */
+height: 12vh;
+background-color: #E0E0E0 ;
+}
+
+.page5-text h2{
+  padding: 1vh 4vw;
+  font-size: 2vw;
+  color: black;
+}
+#reviews {
+  display: flex;
+  background: url("https://getwallpapers.com/wallpaper/full/d/6/f/235856.jpg");
+}
+.reviewbox1{
+  display: flex;
+  position: relative;
+  /* border: 1px solid black; */
+  width: 50vw;
+  height: 148vh;
+  }
+
+.reviewbox2{
+  display: flex;
+  /* border: 1px solid black; */
+  width: 50vw;
+  height: 148vh;
+}
+.reviewbox1 img {
+  height: 130vh;
+  position: absolute;
+  right: 0;
+  top: 5vh;
+
+  /* background-size: cover; */
+}
+.reviewbox2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+.box-review-detail {
+ display: flex;
+ flex-direction: column;
+ background-color: white;
+ width: 38vw;
+ height: 39vh;
+ margin-bottom: 2vh;
+ border: 1.3px solid #2765FA;
+ box-shadow: 2px 2px 0 #9d9d9d;
+}
+.box-review-detail .part1{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.part1 h1{
+position: absolute;
+font-family: "Space Grotesk", sans-serif; 
+font-size: 13px;
+font-weight: 600;
+background-color: yellow;
+padding: 4px 8px;
+top: 0;
+right: 0;
+}
+.part1 h3{
+  font-family: "Space Grotesk", sans-serif; 
+  font-size: 2vw;
+  margin-left: -14.5vw;
+  margin-bottom:3vh;
+  word-spacing: 3px;
+}
+.part1 p{
+  padding: 0 ;
+  margin-left: -2vw;
+  line-height: 3vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  word-spacing: 3px;
+}
+.shoes-review-image {
+  background-color: blue;
+  width: 25vw;
+  height: 35vh;
+  background-image: url("shoe image/reviewshoe1.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ margin-top: 2vh;
+  margin-left: 17vw;
+} 
+.box-review-detail .part2 {
+  height: 50%;
+  width: 100%;
+  display: flex; 
+  align-items: center;
+  padding: 2vh;
+}
+.pp{
+  width: 4.3vw;
+  height: 4.3vw;
+  margin:0 2vw ;
+}
+.pp img{
+  width: 4.3vw;
+  border-radius: 50px;
+}
+.profession{
+margin-right: 3vw;
+}
+.profession h3 {
+  font-size: 1.1vw;
+  letter-spacing: 0.8px;
+  /* font-stretch: ; */
+  font-family: "Space Grotesk", sans-serif;
+}
+.profession h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+}
+.stars{
+  display: flex;
+  width: 12vw;
+  height: auto;
+  margin: 0 1.5vw;
+  /* position: relative; */
+}
+.star img{
+  width: 1.5vw;
+  height: auto;
+  margin: 0 0.5vw;
+  filter: invert(35%) sepia(108%) saturate(302%) hue-rotate(160deg);
+}
+
+/* .shoes-review-image img {
+
+width: 25vw;
+height: 100%;
+}  */
+
+  /* .box1{
+   background-image: url(/shoe\ image/shoe1.webp);
+   background-size: cover;
+   background-position: center; 
+  }*/
+
+  /* .box1:hover{
+   background-image: url(shoe\ image/shoe1-2.webp);
+   background-size: cover;
+   background-position: center;
+  } */
+ 
